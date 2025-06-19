@@ -1,3 +1,13 @@
+<?php
+session_start();
+
+if (!isset($_SESSION['username'])) {
+    header('Location: login.php');
+    exit;
+}
+
+$username = $_SESSION['username'];
+?>
 <!DOCTYPE html>
 <html lang="nl">
 <head>
@@ -13,15 +23,23 @@
 <?php
     include 'header.php'
 ?>
-<body>
- <div class="game-container">
-    <div class="game-title">Boter Kaas en Eieren</div>
-    <div class="game-board" id="board"></div>
-    <div class="game-status" id="status">X is aan de beurt</div>
-    <div class="game-button" onclick="resetGame()">Opnieuw</div>
-  </div>
+<body class="pagina">
+
+<form class="formulier">
+    <h2 class="titel">Welkom, <?php echo htmlspecialchars($username); ?>!</h2>
+
+    <p class="success-message">Je bent succesvol ingelogd.</p>
+
+    <a href="logout.php" class="link">Uitloggen</a>
+</form>
+
+</body>
 <?php
     include 'footer.php'
 ?>
 
 </main>
+
+
+
+</html>

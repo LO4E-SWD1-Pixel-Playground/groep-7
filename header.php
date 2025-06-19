@@ -17,6 +17,10 @@
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="games.php">Games</a></li>
+                <li><a href="account.php">account</a></li>
+                <li><a href="register.php">register</a></li>
+                <li><a href="login.php">login</a></li>
+                
             </ul>
         </nav>
     </header>
