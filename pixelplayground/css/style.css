@@ -1,0 +1,360 @@
+
+.slide {
+  top: 0;
+  left: 0;
+  width: 800px;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  display: none;
+}
+
+.slide.active {
+  display: block;
+}
+
+header {
+    background-color: #0F2333;
+   
+}
+
+footer {
+    background-color: #0F2333;
+   
+}
+
+ .about-section {
+      border: 2px solid #000000; 
+      padding: 20px;
+      margin: 50px auto;
+      max-width: 1400px;
+      background-color: #0F2333;
+      border-radius: 10px;
+      font-family: Arial, sans-serif;
+    }
+
+    .about-section h1 {
+      text-align: center;
+      color: #ffffff;
+    }
+
+    .about-section p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      color: #ffffff;
+      text-align: center;
+    }
+
+    .slideshow-container {
+  border: 3px solid #000000;
+  max-width: 900px; 
+  margin: 50px auto; 
+  padding: 20px;
+  text-align: center;
+  background-color: #0F2333; 
+  
+}
+
+.slides img {
+  width: 100%;
+  display: none;
+}
+
+.slides img.active {
+  display: block;
+}
+
+
+.pagina {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+
+.link-blok {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.blok {
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 15px;
+  width: 800px;
+  text-align: center;
+  background-color: #fff;
+  height: 500px;
+
+}
+
+.blok:hover {
+  transform: scale(1.03);
+ 
+}
+
+.foto {
+  width: 200px;
+  height: 200px;
+  object-fit: cover; 
+  border-radius: 8px;
+}
+
+
+.titel {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+  .game-container {
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+    }
+
+    .game-title {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .game-board {
+      display: grid;
+      grid-template-columns: repeat(3, 100px);
+      grid-template-rows: repeat(3, 100px);
+      gap: 5px;
+    }
+
+    .game-cell {
+      background-color: #f2f2f2;
+      border: 2px solid #444;
+      font-size: 2em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+
+    .game-status {
+      margin-top: 20px;
+      font-size: 1.2em;
+    }
+
+    .game-button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      font-size: 1em;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .game-button:hover {
+      background-color: #0056b3;}
+
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f4f4;
+}
+
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0F2333;
+    padding: 10px 30px;
+    color: white;
+}
+
+.logo-container img {
+    height: 80px;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.main-nav a:hover {
+    color: #ffcc00;
+}
+
+.site-footer {
+  background-color: #0F2333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.site-footer a {
+  color: #ffffff;
+  text-decoration: underline;
+  margin: 0 5px;
+}
+
+.site-footer a:hover {
+  text-decoration: none;
+}
+
+.footertext {
+  color: white;
+}
+
+.pagina {
+            background-color: #f0f2f5;
+            font-family: Arial, sans-serif;
+        }
+
+        .login-formulier {
+            background-color: white;
+            padding: 20px;
+            border: 1px solid #ccc;
+            width: 300px;
+            margin: 100px auto;
+            border-radius: 10px;
+        }
+
+        .formulier-label, .formulier-veld {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .formulier-tekstveld {
+            padding: 8px;
+            border: 1px solid #aaa;
+            border-radius: 5px;
+        }
+
+        .formulier-knop {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .formulier-knop:hover {
+            background-color: #0056b3;
+        }
+
+        .foutmelding {
+            color: red;
+            text-align: center;
+        }
+
+        .success-message {
+            color: green;
+            text-align: center;
+        }
+
+        .titel {
+            text-align: center;
+        }
+
+.pagina {
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+}
+
+.formulier {
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 300px;
+    margin: 100px auto;
+    border-radius: 10px;
+}
+
+.formulier-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formulier-tekstveld {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+.formulier-knop {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.login {
+    background-color: #007bff;
+    color: white;
+}
+
+.login:hover {
+    background-color: #0056b3;
+}
+
+.registreer {
+    background-color: #28a745;
+    color: white;
+}
+
+.registreer:hover {
+    background-color: #218838;
+}
+
+.foutmelding {
+    color: red;
+    text-align: center;
+}
+
+.success-message {
+    color: green;
+    text-align: center;
+}
+
+.titel,
+.link {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
